@@ -22,7 +22,7 @@ public class Tests {
 	
 	@Test
 	public void Test02() {
-		assertEquals(1, util.Resta(5, 4));
+		assertEquals(1, util.Resta(4, 3));
 	}
 	
 	@Test
