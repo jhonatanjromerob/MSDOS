@@ -22,17 +22,17 @@ public class Tests {
 	
 	@Test
 	public void Test02() {
-		assertEquals(5, util.Suma(2, 3));
+		assertEquals(1, util.Resta(5, 4));
 	}
 	
 	@Test
 	public void Test03() {
-		assertEquals(5, util.Suma(2, 3));
+		assertEquals(25, util.Multiplicacion(5, 5));
 	}
 	
 	@Test
 	public void Test04() {
-		assertEquals(5, util.Suma(2, 3));
+		assertEquals(9, util.Division(81, 9));
 	}
 	
 	@Test
