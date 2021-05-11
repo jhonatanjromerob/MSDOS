@@ -27,7 +27,7 @@ public class Tests {
 	
 	@Test
 	public void Test03() {
-		assertEquals(16, util.Multiplicacion(4, 4));
+		assertEquals(25, util.Multiplicacion(5, 5));
 	}
 	
 	@Test
