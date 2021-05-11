@@ -37,7 +37,7 @@ public class Tests {
 	
 	@Test
 	public void Test05() {
-		assertEquals(12, util.Suma(9, 3));
+		assertEquals(11, util.Suma(8, 3));
 	}
 	
 	@After
