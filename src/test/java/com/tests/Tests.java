@@ -4,6 +4,8 @@ import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
 import com.code.Code;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class Tests {
 	
@@ -47,6 +49,24 @@ public class Tests {
 	public void Test05() {
 		assertEquals(11, util.Suma(7, 4));
 		System.out.println("Test05 is OK !!!");
+	}
+	
+	@Test
+	public void Test06() {
+		System.out.println(util.GetActualHour());
+		System.out.println("Test06 is OK !!!");
+	}
+	
+	@Test
+	public void Test07() {
+		System.out.println(util.GetActualDate());
+		System.out.println("Test07 is OK !!!");
+	}
+	
+	@Test
+	public void Test08() {
+		System.out.println(util.GetReportDate());
+		System.out.println("Test08 is OK !!!");
 	}
 	
 	@After
