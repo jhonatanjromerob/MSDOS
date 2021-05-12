@@ -1,19 +1,18 @@
-package com.jhonatan;
+package com.tests;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
+import com.code.Code;
 
 public class Tests {
 	
 	int T = 0;
 	Code util = new Code();
-	Codes u = new Codes();
 
 	@Before
 	public void Before() {
-		T = util.contador(T);
-		if(u.Suma(4, 56) == 60) {
+		if(util.Suma(4, 56) == 60) {
 			System.out.println("Start Test =  OK");
 		}else {
 			System.out.println("Failed Test ");
