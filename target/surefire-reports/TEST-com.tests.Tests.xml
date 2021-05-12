@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tests.Tests" time="0.127" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tests.Tests" time="0.121" tests="8" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="CL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\EJRB660K\AppData\Local\Temp\surefire697882721385815341\surefirebooter3259993033199709953.jar C:\Users\EJRB660K\AppData\Local\Temp\surefire697882721385815341 2021-05-11T22-32-55_443-jvmRun1 surefire2207228868534670704tmp surefire_06947366040098429902tmp"/>
+    <property name="sun.java.command" value="C:\Users\EJRB660K\AppData\Local\Temp\surefire5564462248709383438\surefirebooter7907660405489215696.jar C:\Users\EJRB660K\AppData\Local\Temp\surefire5564462248709383438 2021-05-12T10-23-01_322-jvmRun1 surefire2363816918292562328tmp surefire_01312292725471167947tmp"/>
     <property name="surefire.test.class.path" value="C:\SDC\Install\Eclipse\MSDOS\target\test-classes;C:\SDC\Install\Eclipse\MSDOS\target\classes;C:\Users\EJRB660K\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\EJRB660K\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\EJRB660K\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\EJRB660K\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\EJRB660K\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\EJRB660K\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\EJRB660K\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\EJRB660K\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\EJRB660K\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\EJRB660K\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\EJRB660K\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\EJRB660K\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\EJRB660K\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\EJRB660K\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\EJRB660K\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\EJRB660K\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\EJRB660K\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\EJRB660K\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\EJRB660K\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\EJRB660K\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\EJRB660K\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\EJRB660K\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\EJRB660K\.m2\repository\io\qameta\allure\allure-junit4\2.13.9\allure-junit4-2.13.9.jar;C:\Users\EJRB660K\.m2\repository\io\qameta\allure\allure-java-commons\2.13.9\allure-java-commons-2.13.9.jar;C:\Users\EJRB660K\.m2\repository\io\qameta\allure\allure-model\2.13.9\allure-model-2.13.9.jar;C:\Users\EJRB660K\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\EJRB660K\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.2\jackson-databind-2.12.2.jar;C:\Users\EJRB660K\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.2\jackson-annotations-2.12.2.jar;C:\Users\EJRB660K\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.2\jackson-core-2.12.2.jar;C:\Users\EJRB660K\.m2\repository\org\apache\tika\tika-core\1.25\tika-core-1.25.jar;C:\Users\EJRB660K\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\EJRB660K"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\EJRB660K\AppData\Local\Temp\surefire697882721385815341\surefirebooter3259993033199709953.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\EJRB660K\AppData\Local\Temp\surefire5564462248709383438\surefirebooter7907660405489215696.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,12 +60,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Test01" classname="com.tests.Tests" time="0.007"/>
-  <testcase name="Test02" classname="com.tests.Tests" time="0.009"/>
-  <testcase name="Test03" classname="com.tests.Tests" time="0.006"/>
-  <testcase name="Test04" classname="com.tests.Tests" time="0.008"/>
-  <testcase name="Test05" classname="com.tests.Tests" time="0.007"/>
-  <testcase name="Test06" classname="com.tests.Tests" time="0.01"/>
-  <testcase name="Test07" classname="com.tests.Tests" time="0.009"/>
-  <testcase name="Test08" classname="com.tests.Tests" time="0.009"/>
+  <testcase name="Test01" classname="com.tests.Tests" time="0.006"/>
+  <testcase name="Test02" classname="com.tests.Tests" time="0.004"/>
+  <testcase name="Test03" classname="com.tests.Tests" time="0.008">
+    <failure message="expected:&lt;24&gt; but was:&lt;25&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<24> but was:<25>
+	at com.tests.Tests.Test03(Tests.java:35)
+]]></failure>
+    <system-out><![CDATA[Failed Test 
+End Test   =  OK
+
+]]></system-out>
+  </testcase>
+  <testcase name="Test04" classname="com.tests.Tests" time="0.004"/>
+  <testcase name="Test05" classname="com.tests.Tests" time="0.008"/>
+  <testcase name="Test06" classname="com.tests.Tests" time="0.008"/>
+  <testcase name="Test07" classname="com.tests.Tests" time="0.011"/>
+  <testcase name="Test08" classname="com.tests.Tests" time="0.019"/>
 </testsuite>
