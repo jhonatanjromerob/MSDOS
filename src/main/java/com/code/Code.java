@@ -45,7 +45,7 @@ public class Code {
 	
 	public String GetReportDate() {
 		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yy - HH:mm:ss");
+		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy - hh:mm:ss");
 		String actualReportDate = "Report Date = " + format.format(calendar.getTime());
         return actualReportDate;
     }

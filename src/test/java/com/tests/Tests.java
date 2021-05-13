@@ -11,7 +11,7 @@ public class Tests {
 
 	@Before
 	public void Before() {
-		if(code.Suma(5, 56) == 60) {
+		if(code.Suma(4, 56) == 60) {
 			System.out.println("Start Test =  OK");
 		}else {
 			System.out.println("Failed Test ");
