@@ -1,7 +1,9 @@
 package com.tests;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+import org.testng.annotations.*;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.After;
 import com.code.Code;
 
@@ -9,7 +11,7 @@ public class Tests {
 	
 	Code code = new Code();
 
-	@Before
+	@BeforeTest
 	public void Before() {
 		if(code.Suma(4, 56) == 60) {
 			System.out.println("Start Test =  OK");
@@ -50,23 +52,20 @@ public class Tests {
 	
 	@Test
 	public void Test06() {
-		System.out.println(code.GetActualHour());
 		System.out.println("Test06 is OK !!!");
 	}
 	
 	@Test
 	public void Test07() {
-		System.out.println(code.GetActualDate());
 		System.out.println("Test07 is OK !!!");
 	}
 	
 	@Test
 	public void Test08() {
-		System.out.println(code.GetReportDate());
 		System.out.println("Test08 is OK !!!");
 	}
 	
-	@After
+	@AfterTest
 	public void After() {
 		System.out.println("End Test   =  OK\n");
 	}
