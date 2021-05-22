@@ -12,5 +12,6 @@ public class MainClass {
 		test.Test06();
 		test.Test07();
 		test.Test08();
+		
 	}
 }
