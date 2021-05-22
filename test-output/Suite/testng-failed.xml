@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://portalqa.itauchile2.cl/wps/portal/newolb/web/login"/>
+  <test thread-count="5" name="Test on Chrome(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.tests.TestNG_0001">
+        <methods>
+          <include name="Test01"/>
+          <include name="Test06"/>
+          <include name="Test07"/>
+          <include name="Test08"/>
+          <include name="Before"/>
+          <include name="Test02"/>
+          <include name="Test03"/>
+          <include name="Test04"/>
+          <include name="Test05"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- com.tests.TestNG_0001 -->
+    </classes>
+  </test> <!-- Test on Chrome(failed) -->
+  <test thread-count="5" name="Test on Internet Explorer(failed)">
+    <parameter name="Browser" value="InternetExplorer"/>
+    <classes>
+      <class name="com.tests.TestNG_0001">
+        <methods>
+          <include name="Test01"/>
+          <include name="Test06"/>
+          <include name="Test07"/>
+          <include name="Test08"/>
+          <include name="Before"/>
+          <include name="Test02"/>
+          <include name="Test03"/>
+          <include name="Test04"/>
+          <include name="Test05"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- com.tests.TestNG_0001 -->
+    </classes>
+  </test> <!-- Test on Internet Explorer(failed) -->
+</suite> <!-- Failed suite [Suite] -->
