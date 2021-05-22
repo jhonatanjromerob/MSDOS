@@ -2,9 +2,7 @@ package com.tests;
 public class MainClass {
 
 	public static void main(String[] args) {
-		
 		Tests test = new Tests();
-		
 		test.Test01();
 		test.Test02();
 		test.Test03();
@@ -13,6 +11,5 @@ public class MainClass {
 		test.Test06();
 		test.Test07();
 		test.Test08();
-
 	}
 }
