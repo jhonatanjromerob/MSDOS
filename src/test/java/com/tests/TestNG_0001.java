@@ -19,8 +19,8 @@ public class TestNG_0001 {
 //	@Parameters({"URL", "Browser"})
 //	public void Before(String URL, String Browser) {
 	public void BeforeClass() {
-		String URL = "https://portalqa.itauchile2.cl/wps/portal/newolb/web/login";
-		String Browser = "Chrome";
+		String URL = "https://www.google.com/";
+		String Browser = "InternetExplorer";
 		if(code.Suma(4, 56) == 60) {
 			System.out.println("Start Test =  OK");
 		}else {
@@ -32,14 +32,14 @@ public class TestNG_0001 {
 			driver = new ChromeDriver();
 			
 		}else if(Browser.equalsIgnoreCase("Firefox")) {
-			System.setProperty("webdriver.gecko.driver", "C:\\SDC\\Install\\Eclipse\\MSDOS\\src\\test\\resources\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver.exe");
 			driver = new FirefoxDriver();
 			
 		}else if(Browser.equalsIgnoreCase("InternetExplorer")) {
-			System.setProperty("webdriver.ie.driver", "C:\\SDC\\Install\\Eclipse\\MSDOS\\src\\test\\resources\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "./src/test/resources/IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		}
-		driver.get("https://portalqa.itauchile2.cl/wps/portal/newolb/web/login");
+		driver.get(URL);
 		driver.manage().window().maximize();
 		System.out.println("Navegador: " + Browser);
 	}

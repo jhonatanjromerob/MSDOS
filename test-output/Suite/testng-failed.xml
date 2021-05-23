@@ -8,10 +8,10 @@
       <class name="com.tests.TestNG_0001">
         <methods>
           <include name="Test01"/>
+          <include name="BeforeClass"/>
           <include name="Test06"/>
           <include name="Test07"/>
           <include name="Test08"/>
-          <include name="Before"/>
           <include name="Test02"/>
           <include name="Test03"/>
           <include name="Test04"/>
@@ -27,10 +27,10 @@
       <class name="com.tests.TestNG_0001">
         <methods>
           <include name="Test01"/>
+          <include name="BeforeClass"/>
           <include name="Test06"/>
           <include name="Test07"/>
           <include name="Test08"/>
-          <include name="Before"/>
           <include name="Test02"/>
           <include name="Test03"/>
           <include name="Test04"/>
