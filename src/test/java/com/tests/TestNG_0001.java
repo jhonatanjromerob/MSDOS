@@ -20,7 +20,7 @@ public class TestNG_0001 {
 //	public void Before(String URL, String Browser) {
 	public void BeforeClass() {
 		String URL = "https://www.google.com/";
-		String Browser = "InternetExplorer";
+		String Browser = "Chrome";
 		if(code.Suma(4, 56) == 60) {
 			System.out.println("Start Test =  OK");
 		}else {
