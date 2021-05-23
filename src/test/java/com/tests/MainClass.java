@@ -1,7 +1,7 @@
 package com.tests;
 public class MainClass {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		Tests test = new Tests();
 		test.Test01();
 		test.Test02();

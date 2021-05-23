@@ -1,6 +1,8 @@
 package com.tests;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -10,6 +12,7 @@ import com.code.Code;
 public class Tests {
 	
 	Code code = new Code();
+	private WebDriver driver;
 
 	@BeforeTest
 	public void Before() {
@@ -21,9 +24,18 @@ public class Tests {
 	}
 	
 	@Test
-	public void Test01() {
+	public void Test01() throws InterruptedException {
+		String URL = "https://www.google.com/";
+		String Browser = "Chrome";
 		assertEquals(5, code.Suma(2, 3));
 		System.out.println("Test01 is OK !!!");
+		System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get(URL);
+		driver.manage().window().maximize();
+		System.out.println("Navegador: " + Browser);
+		Thread.sleep(2000);
+		driver.quit();
 	}
 	
 	@Test
