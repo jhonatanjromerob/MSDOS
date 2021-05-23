@@ -18,7 +18,7 @@ public class TestNG_0001 {
 	@BeforeClass
 //	@Parameters({"URL", "Browser"})
 //	public void Before(String URL, String Browser) {
-	public void BeforeClass() {
+	public void BeforeClass() throws InterruptedException {
 		String URL = "https://www.google.com/";
 		String Browser = "Chrome";
 		if(code.Suma(4, 56) == 60) {
@@ -42,12 +42,23 @@ public class TestNG_0001 {
 		driver.get(URL);
 		driver.manage().window().maximize();
 		System.out.println("Navegador: " + Browser);
+		Thread.sleep(2000);
+		driver.quit();
 	}
 	
 	@Test
-	public void Test01() {
+	public void Test01() throws InterruptedException {
+		String URL = "https://www.google.com/";
+		String Browser = "Chrome";
 		assertEquals(5, code.Suma(2, 3));
 		System.out.println("Test01 is OK !!!");
+		System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get(URL);
+		driver.manage().window().maximize();
+		System.out.println("Navegador: " + Browser);
+		Thread.sleep(2000);
+		driver.quit();
 	}
 	
 	@Test
