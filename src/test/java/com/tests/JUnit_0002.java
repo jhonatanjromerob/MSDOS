@@ -1,54 +1,31 @@
 package com.tests;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.*;
-import com.code.Code;
 import static org.junit.Assert.assertEquals;
 import java.io.File;
 import java.io.IOException;
 import org.apache.commons.io.FileUtils;
-import org.junit.After;
-import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.*;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.After;
+import com.code.Code;
 
-public class TestNG_0001 {
+public class JUnit_0002 {
 	
 	Code code = new Code();
 	private WebDriver driver;
-	
-	@BeforeClass
-//	@Parameters({"URL", "Browser"})
-//	public void Before(String URL, String Browser) {
-	public void BeforeClass() throws InterruptedException {
-		String URL = "https://www.google.com/";
-		String Browser = "Chrome";
+
+	@BeforeTest
+	public void Before() {
 		if(code.Suma(4, 56) == 60) {
 			System.out.println("Start Test =  OK");
 		}else {
 			System.out.println("Failed Test ");
 		}
-		
-		if(Browser.equalsIgnoreCase("Chrome")){
-			System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
-			driver = new ChromeDriver();
-			
-		}else if(Browser.equalsIgnoreCase("Firefox")) {
-			System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver.exe");
-			driver = new FirefoxDriver();
-			
-		}else if(Browser.equalsIgnoreCase("InternetExplorer")) {
-			System.setProperty("webdriver.ie.driver", "./src/test/resources/IEDriverServer.exe");
-			driver = new InternetExplorerDriver();
-		}
-		driver.get(URL);
-		driver.manage().window().maximize();
-		System.out.println("Navegador: " + Browser);
-		Thread.sleep(2000);
-		driver.quit();
 	}
 	
 	@Test
@@ -107,10 +84,8 @@ public class TestNG_0001 {
 		System.out.println("Test08 is OK !!!");
 	}
 	
-	@AfterClass
-	public void AfterClass() throws InterruptedException {
+	@AfterTest
+	public void After() {
 		System.out.println("End Test   =  OK\n");
-		Thread.sleep(2000);
-		driver.quit();
 	}
 }

@@ -1,8 +1,11 @@
 package com.tests;
+
+import java.io.IOException;
+
 public class MainClass {
 
-	public static void main(String[] args) throws InterruptedException {
-		Tests test = new Tests();
+	public static void main(String[] args) throws InterruptedException, IOException {
+		JUnit_0001 test = new JUnit_0001();
 		test.Test01();
 		test.Test02();
 		test.Test03();

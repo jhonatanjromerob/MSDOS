@@ -15,7 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-public class TestNG_0001 {
+public class TestNG_0002 {
 	
 	Code code = new Code();
 	private WebDriver driver;

@@ -31,7 +31,7 @@ public class Code {
 	
 	public String GetActualHour() {
 		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
+		SimpleDateFormat format = new SimpleDateFormat("HH-mm-ss");
 		String actualHour = "Actual hour = " + format.format(calendar.getTime());
         return actualHour;
     }

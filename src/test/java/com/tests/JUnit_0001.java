@@ -1,6 +1,11 @@
 package com.tests;
 import static org.junit.Assert.assertEquals;
+import java.io.File;
+import java.io.IOException;
+import org.apache.commons.io.FileUtils;
 import org.junit.Test;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
@@ -9,7 +14,7 @@ import org.junit.BeforeClass;
 import org.junit.After;
 import com.code.Code;
 
-public class Tests {
+public class JUnit_0001 {
 	
 	Code code = new Code();
 	private WebDriver driver;
@@ -24,7 +29,7 @@ public class Tests {
 	}
 	
 	@Test
-	public void Test01() throws InterruptedException {
+	public void Test01() throws InterruptedException, IOException {
 		String URL = "https://www.google.com/";
 		String Browser = "Chrome";
 		assertEquals(5, code.Suma(2, 3));
@@ -35,6 +40,8 @@ public class Tests {
 		driver.manage().window().maximize();
 		System.out.println("Navegador: " + Browser);
 		Thread.sleep(2000);
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(scrFile, new File("./src/test/evidence/" + code.GetActualHour() + ".jpg"));
 		driver.quit();
 	}
 	

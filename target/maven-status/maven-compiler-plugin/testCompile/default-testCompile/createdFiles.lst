@@ -1,4 +1,7 @@
 com\tests\Codes.class
+com\tests\TestNG_0002.class
+com\tests\JUnit_0002.class
 com\tests\MainClass.class
-com\tests\Tests.class
+com\tests\JUnit_0001.class
+com\tests\TestSuite_01.class
 com\tests\TestNG_0001.class
