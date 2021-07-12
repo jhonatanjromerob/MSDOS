@@ -2,176 +2,176 @@
 <testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-24T00:04:40 CLT" name="Suite" finished-at="2021-05-24T00:06:01 CLT" duration-ms="80533">
+  <suite started-at="2021-05-29T17:28:15 CLT" name="Suite" finished-at="2021-05-29T17:29:29 CLT" duration-ms="73358">
     <groups>
     </groups>
-    <test started-at="2021-05-24T00:04:40 CLT" name="Test on Chrome" finished-at="2021-05-24T00:05:22 CLT" duration-ms="41809">
+    <test started-at="2021-05-29T17:28:15 CLT" name="Test on Chrome" finished-at="2021-05-29T17:28:53 CLT" duration-ms="37471">
       <class name="com.tests.TestNG_0001">
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.tests.TestNG_0001@61001b64]" started-at="2021-05-24T00:04:40 CLT" name="BeforeClass" finished-at="2021-05-24T00:04:50 CLT" duration-ms="10017" status="PASS">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.tests.TestNG_0001@b9b00e0]" started-at="2021-05-29T17:28:15 CLT" name="BeforeClass" finished-at="2021-05-29T17:28:24 CLT" duration-ms="8977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method signature="Test01()[pri:0, instance:com.tests.TestNG_0001@61001b64]" started-at="2021-05-24T00:04:50 CLT" name="Test01" finished-at="2021-05-24T00:04:59 CLT" duration-ms="8809" status="PASS">
+        <test-method signature="Test01()[pri:0, instance:com.tests.TestNG_0001@b9b00e0]" started-at="2021-05-29T17:28:24 CLT" name="Test01" finished-at="2021-05-29T17:28:32 CLT" duration-ms="8039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01 -->
-        <test-method signature="Test02()[pri:0, instance:com.tests.TestNG_0001@61001b64]" started-at="2021-05-24T00:04:59 CLT" name="Test02" finished-at="2021-05-24T00:04:59 CLT" duration-ms="7" status="PASS">
+        <test-method signature="Test02()[pri:0, instance:com.tests.TestNG_0001@b9b00e0]" started-at="2021-05-29T17:28:32 CLT" name="Test02" finished-at="2021-05-29T17:28:32 CLT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test02 -->
-        <test-method signature="Test03()[pri:0, instance:com.tests.TestNG_0001@61001b64]" started-at="2021-05-24T00:04:59 CLT" name="Test03" finished-at="2021-05-24T00:04:59 CLT" duration-ms="12" status="PASS">
+        <test-method signature="Test03()[pri:0, instance:com.tests.TestNG_0001@b9b00e0]" started-at="2021-05-29T17:28:32 CLT" name="Test03" finished-at="2021-05-29T17:28:32 CLT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03 -->
-        <test-method signature="Test04()[pri:0, instance:com.tests.TestNG_0001@61001b64]" started-at="2021-05-24T00:04:59 CLT" name="Test04" finished-at="2021-05-24T00:04:59 CLT" duration-ms="8" status="PASS">
+        <test-method signature="Test04()[pri:0, instance:com.tests.TestNG_0001@b9b00e0]" started-at="2021-05-29T17:28:32 CLT" name="Test04" finished-at="2021-05-29T17:28:32 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04 -->
-        <test-method signature="Test05()[pri:0, instance:com.tests.TestNG_0001@61001b64]" started-at="2021-05-24T00:04:59 CLT" name="Test05" finished-at="2021-05-24T00:04:59 CLT" duration-ms="7" status="PASS">
+        <test-method signature="Test05()[pri:0, instance:com.tests.TestNG_0001@b9b00e0]" started-at="2021-05-29T17:28:32 CLT" name="Test05" finished-at="2021-05-29T17:28:32 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05 -->
-        <test-method signature="Test06()[pri:0, instance:com.tests.TestNG_0001@61001b64]" started-at="2021-05-24T00:04:59 CLT" name="Test06" finished-at="2021-05-24T00:04:59 CLT" duration-ms="10" status="PASS">
+        <test-method signature="Test06()[pri:0, instance:com.tests.TestNG_0001@b9b00e0]" started-at="2021-05-29T17:28:32 CLT" name="Test06" finished-at="2021-05-29T17:28:32 CLT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test06 -->
-        <test-method signature="Test07()[pri:0, instance:com.tests.TestNG_0001@61001b64]" started-at="2021-05-24T00:04:59 CLT" name="Test07" finished-at="2021-05-24T00:04:59 CLT" duration-ms="3" status="PASS">
+        <test-method signature="Test07()[pri:0, instance:com.tests.TestNG_0001@b9b00e0]" started-at="2021-05-29T17:28:32 CLT" name="Test07" finished-at="2021-05-29T17:28:32 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test07 -->
-        <test-method signature="Test08()[pri:0, instance:com.tests.TestNG_0001@61001b64]" started-at="2021-05-24T00:04:59 CLT" name="Test08" finished-at="2021-05-24T00:04:59 CLT" duration-ms="16" status="PASS">
+        <test-method signature="Test08()[pri:0, instance:com.tests.TestNG_0001@b9b00e0]" started-at="2021-05-29T17:28:32 CLT" name="Test08" finished-at="2021-05-29T17:28:32 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test08 -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.tests.TestNG_0001@61001b64]" started-at="2021-05-24T00:04:59 CLT" name="AfterClass" finished-at="2021-05-24T00:05:01 CLT" duration-ms="2008" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.tests.TestNG_0001@b9b00e0]" started-at="2021-05-29T17:28:32 CLT" name="AfterClass" finished-at="2021-05-29T17:28:34 CLT" duration-ms="2002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
       </class> <!-- com.tests.TestNG_0001 -->
       <class name="com.tests.TestNG_0002">
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.tests.TestNG_0002@1151e434]" started-at="2021-05-24T00:05:01 CLT" name="BeforeClass" finished-at="2021-05-24T00:05:11 CLT" duration-ms="9197" status="PASS">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.tests.TestNG_0002@783a467b]" started-at="2021-05-29T17:28:34 CLT" name="BeforeClass" finished-at="2021-05-29T17:28:42 CLT" duration-ms="7362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method signature="Test01()[pri:0, instance:com.tests.TestNG_0002@1151e434]" started-at="2021-05-24T00:05:11 CLT" name="Test01" finished-at="2021-05-24T00:05:20 CLT" duration-ms="9275" status="PASS">
+        <test-method signature="Test01()[pri:0, instance:com.tests.TestNG_0002@783a467b]" started-at="2021-05-29T17:28:42 CLT" name="Test01" finished-at="2021-05-29T17:28:51 CLT" duration-ms="9016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01 -->
-        <test-method signature="Test02()[pri:0, instance:com.tests.TestNG_0002@1151e434]" started-at="2021-05-24T00:05:20 CLT" name="Test02" finished-at="2021-05-24T00:05:20 CLT" duration-ms="5" status="PASS">
+        <test-method signature="Test02()[pri:0, instance:com.tests.TestNG_0002@783a467b]" started-at="2021-05-29T17:28:51 CLT" name="Test02" finished-at="2021-05-29T17:28:51 CLT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test02 -->
-        <test-method signature="Test03()[pri:0, instance:com.tests.TestNG_0002@1151e434]" started-at="2021-05-24T00:05:20 CLT" name="Test03" finished-at="2021-05-24T00:05:20 CLT" duration-ms="4" status="PASS">
+        <test-method signature="Test03()[pri:0, instance:com.tests.TestNG_0002@783a467b]" started-at="2021-05-29T17:28:51 CLT" name="Test03" finished-at="2021-05-29T17:28:51 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03 -->
-        <test-method signature="Test04()[pri:0, instance:com.tests.TestNG_0002@1151e434]" started-at="2021-05-24T00:05:20 CLT" name="Test04" finished-at="2021-05-24T00:05:20 CLT" duration-ms="3" status="PASS">
+        <test-method signature="Test04()[pri:0, instance:com.tests.TestNG_0002@783a467b]" started-at="2021-05-29T17:28:51 CLT" name="Test04" finished-at="2021-05-29T17:28:51 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04 -->
-        <test-method signature="Test05()[pri:0, instance:com.tests.TestNG_0002@1151e434]" started-at="2021-05-24T00:05:20 CLT" name="Test05" finished-at="2021-05-24T00:05:20 CLT" duration-ms="4" status="PASS">
+        <test-method signature="Test05()[pri:0, instance:com.tests.TestNG_0002@783a467b]" started-at="2021-05-29T17:28:51 CLT" name="Test05" finished-at="2021-05-29T17:28:51 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05 -->
-        <test-method signature="Test06()[pri:0, instance:com.tests.TestNG_0002@1151e434]" started-at="2021-05-24T00:05:20 CLT" name="Test06" finished-at="2021-05-24T00:05:20 CLT" duration-ms="2" status="PASS">
+        <test-method signature="Test06()[pri:0, instance:com.tests.TestNG_0002@783a467b]" started-at="2021-05-29T17:28:51 CLT" name="Test06" finished-at="2021-05-29T17:28:51 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test06 -->
-        <test-method signature="Test07()[pri:0, instance:com.tests.TestNG_0002@1151e434]" started-at="2021-05-24T00:05:20 CLT" name="Test07" finished-at="2021-05-24T00:05:20 CLT" duration-ms="1" status="PASS">
+        <test-method signature="Test07()[pri:0, instance:com.tests.TestNG_0002@783a467b]" started-at="2021-05-29T17:28:51 CLT" name="Test07" finished-at="2021-05-29T17:28:51 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test07 -->
-        <test-method signature="Test08()[pri:0, instance:com.tests.TestNG_0002@1151e434]" started-at="2021-05-24T00:05:20 CLT" name="Test08" finished-at="2021-05-24T00:05:20 CLT" duration-ms="11" status="PASS">
+        <test-method signature="Test08()[pri:0, instance:com.tests.TestNG_0002@783a467b]" started-at="2021-05-29T17:28:51 CLT" name="Test08" finished-at="2021-05-29T17:28:51 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test08 -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.tests.TestNG_0002@1151e434]" started-at="2021-05-24T00:05:20 CLT" name="AfterClass" finished-at="2021-05-24T00:05:22 CLT" duration-ms="2002" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.tests.TestNG_0002@783a467b]" started-at="2021-05-29T17:28:51 CLT" name="AfterClass" finished-at="2021-05-29T17:28:53 CLT" duration-ms="2001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
       </class> <!-- com.tests.TestNG_0002 -->
     </test> <!-- Test on Chrome -->
-    <test started-at="2021-05-24T00:05:22 CLT" name="Test on Internet Explorer" finished-at="2021-05-24T00:06:01 CLT" duration-ms="38639">
+    <test started-at="2021-05-29T17:28:53 CLT" name="Test on Internet Explorer" finished-at="2021-05-29T17:29:29 CLT" duration-ms="35836">
       <class name="com.tests.TestNG_0001">
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.tests.TestNG_0001@38cee291]" started-at="2021-05-24T00:05:22 CLT" name="BeforeClass" finished-at="2021-05-24T00:05:30 CLT" duration-ms="8156" status="PASS">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.tests.TestNG_0001@4145bad8]" started-at="2021-05-29T17:28:53 CLT" name="BeforeClass" finished-at="2021-05-29T17:29:01 CLT" duration-ms="7783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method signature="Test01()[pri:0, instance:com.tests.TestNG_0001@38cee291]" started-at="2021-05-24T00:05:30 CLT" name="Test01" finished-at="2021-05-24T00:05:40 CLT" duration-ms="9515" status="PASS">
+        <test-method signature="Test01()[pri:0, instance:com.tests.TestNG_0001@4145bad8]" started-at="2021-05-29T17:29:01 CLT" name="Test01" finished-at="2021-05-29T17:29:09 CLT" duration-ms="8067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01 -->
-        <test-method signature="Test02()[pri:0, instance:com.tests.TestNG_0001@38cee291]" started-at="2021-05-24T00:05:40 CLT" name="Test02" finished-at="2021-05-24T00:05:40 CLT" duration-ms="7" status="PASS">
+        <test-method signature="Test02()[pri:0, instance:com.tests.TestNG_0001@4145bad8]" started-at="2021-05-29T17:29:09 CLT" name="Test02" finished-at="2021-05-29T17:29:09 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test02 -->
-        <test-method signature="Test03()[pri:0, instance:com.tests.TestNG_0001@38cee291]" started-at="2021-05-24T00:05:40 CLT" name="Test03" finished-at="2021-05-24T00:05:40 CLT" duration-ms="2" status="PASS">
+        <test-method signature="Test03()[pri:0, instance:com.tests.TestNG_0001@4145bad8]" started-at="2021-05-29T17:29:09 CLT" name="Test03" finished-at="2021-05-29T17:29:09 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03 -->
-        <test-method signature="Test04()[pri:0, instance:com.tests.TestNG_0001@38cee291]" started-at="2021-05-24T00:05:40 CLT" name="Test04" finished-at="2021-05-24T00:05:40 CLT" duration-ms="3" status="PASS">
+        <test-method signature="Test04()[pri:0, instance:com.tests.TestNG_0001@4145bad8]" started-at="2021-05-29T17:29:09 CLT" name="Test04" finished-at="2021-05-29T17:29:09 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04 -->
-        <test-method signature="Test05()[pri:0, instance:com.tests.TestNG_0001@38cee291]" started-at="2021-05-24T00:05:40 CLT" name="Test05" finished-at="2021-05-24T00:05:40 CLT" duration-ms="4" status="PASS">
+        <test-method signature="Test05()[pri:0, instance:com.tests.TestNG_0001@4145bad8]" started-at="2021-05-29T17:29:09 CLT" name="Test05" finished-at="2021-05-29T17:29:09 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05 -->
-        <test-method signature="Test06()[pri:0, instance:com.tests.TestNG_0001@38cee291]" started-at="2021-05-24T00:05:40 CLT" name="Test06" finished-at="2021-05-24T00:05:40 CLT" duration-ms="6" status="PASS">
+        <test-method signature="Test06()[pri:0, instance:com.tests.TestNG_0001@4145bad8]" started-at="2021-05-29T17:29:09 CLT" name="Test06" finished-at="2021-05-29T17:29:09 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test06 -->
-        <test-method signature="Test07()[pri:0, instance:com.tests.TestNG_0001@38cee291]" started-at="2021-05-24T00:05:40 CLT" name="Test07" finished-at="2021-05-24T00:05:40 CLT" duration-ms="2" status="PASS">
+        <test-method signature="Test07()[pri:0, instance:com.tests.TestNG_0001@4145bad8]" started-at="2021-05-29T17:29:09 CLT" name="Test07" finished-at="2021-05-29T17:29:09 CLT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test07 -->
-        <test-method signature="Test08()[pri:0, instance:com.tests.TestNG_0001@38cee291]" started-at="2021-05-24T00:05:40 CLT" name="Test08" finished-at="2021-05-24T00:05:40 CLT" duration-ms="1" status="PASS">
+        <test-method signature="Test08()[pri:0, instance:com.tests.TestNG_0001@4145bad8]" started-at="2021-05-29T17:29:09 CLT" name="Test08" finished-at="2021-05-29T17:29:09 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test08 -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.tests.TestNG_0001@38cee291]" started-at="2021-05-24T00:05:40 CLT" name="AfterClass" finished-at="2021-05-24T00:05:42 CLT" duration-ms="2008" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.tests.TestNG_0001@4145bad8]" started-at="2021-05-29T17:29:09 CLT" name="AfterClass" finished-at="2021-05-29T17:29:11 CLT" duration-ms="2002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
       </class> <!-- com.tests.TestNG_0001 -->
       <class name="com.tests.TestNG_0002">
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.tests.TestNG_0002@4b45a2f5]" started-at="2021-05-24T00:05:42 CLT" name="BeforeClass" finished-at="2021-05-24T00:05:50 CLT" duration-ms="7997" status="PASS">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.tests.TestNG_0002@d86a6f]" started-at="2021-05-29T17:29:11 CLT" name="BeforeClass" finished-at="2021-05-29T17:29:18 CLT" duration-ms="7773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method signature="Test01()[pri:0, instance:com.tests.TestNG_0002@4b45a2f5]" started-at="2021-05-24T00:05:50 CLT" name="Test01" finished-at="2021-05-24T00:05:59 CLT" duration-ms="8806" status="PASS">
+        <test-method signature="Test01()[pri:0, instance:com.tests.TestNG_0002@d86a6f]" started-at="2021-05-29T17:29:18 CLT" name="Test01" finished-at="2021-05-29T17:29:27 CLT" duration-ms="8179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01 -->
-        <test-method signature="Test02()[pri:0, instance:com.tests.TestNG_0002@4b45a2f5]" started-at="2021-05-24T00:05:59 CLT" name="Test02" finished-at="2021-05-24T00:05:59 CLT" duration-ms="1" status="PASS">
+        <test-method signature="Test02()[pri:0, instance:com.tests.TestNG_0002@d86a6f]" started-at="2021-05-29T17:29:27 CLT" name="Test02" finished-at="2021-05-29T17:29:27 CLT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test02 -->
-        <test-method signature="Test03()[pri:0, instance:com.tests.TestNG_0002@4b45a2f5]" started-at="2021-05-24T00:05:59 CLT" name="Test03" finished-at="2021-05-24T00:05:59 CLT" duration-ms="6" status="PASS">
+        <test-method signature="Test03()[pri:0, instance:com.tests.TestNG_0002@d86a6f]" started-at="2021-05-29T17:29:27 CLT" name="Test03" finished-at="2021-05-29T17:29:27 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03 -->
-        <test-method signature="Test04()[pri:0, instance:com.tests.TestNG_0002@4b45a2f5]" started-at="2021-05-24T00:05:59 CLT" name="Test04" finished-at="2021-05-24T00:05:59 CLT" duration-ms="3" status="PASS">
+        <test-method signature="Test04()[pri:0, instance:com.tests.TestNG_0002@d86a6f]" started-at="2021-05-29T17:29:27 CLT" name="Test04" finished-at="2021-05-29T17:29:27 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04 -->
-        <test-method signature="Test05()[pri:0, instance:com.tests.TestNG_0002@4b45a2f5]" started-at="2021-05-24T00:05:59 CLT" name="Test05" finished-at="2021-05-24T00:05:59 CLT" duration-ms="3" status="PASS">
+        <test-method signature="Test05()[pri:0, instance:com.tests.TestNG_0002@d86a6f]" started-at="2021-05-29T17:29:27 CLT" name="Test05" finished-at="2021-05-29T17:29:27 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05 -->
-        <test-method signature="Test06()[pri:0, instance:com.tests.TestNG_0002@4b45a2f5]" started-at="2021-05-24T00:05:59 CLT" name="Test06" finished-at="2021-05-24T00:05:59 CLT" duration-ms="4" status="PASS">
+        <test-method signature="Test06()[pri:0, instance:com.tests.TestNG_0002@d86a6f]" started-at="2021-05-29T17:29:27 CLT" name="Test06" finished-at="2021-05-29T17:29:27 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test06 -->
-        <test-method signature="Test07()[pri:0, instance:com.tests.TestNG_0002@4b45a2f5]" started-at="2021-05-24T00:05:59 CLT" name="Test07" finished-at="2021-05-24T00:05:59 CLT" duration-ms="1" status="PASS">
+        <test-method signature="Test07()[pri:0, instance:com.tests.TestNG_0002@d86a6f]" started-at="2021-05-29T17:29:27 CLT" name="Test07" finished-at="2021-05-29T17:29:27 CLT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test07 -->
-        <test-method signature="Test08()[pri:0, instance:com.tests.TestNG_0002@4b45a2f5]" started-at="2021-05-24T00:05:59 CLT" name="Test08" finished-at="2021-05-24T00:05:59 CLT" duration-ms="1" status="PASS">
+        <test-method signature="Test08()[pri:0, instance:com.tests.TestNG_0002@d86a6f]" started-at="2021-05-29T17:29:27 CLT" name="Test08" finished-at="2021-05-29T17:29:27 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test08 -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.tests.TestNG_0002@4b45a2f5]" started-at="2021-05-24T00:05:59 CLT" name="AfterClass" finished-at="2021-05-24T00:06:01 CLT" duration-ms="2014" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.tests.TestNG_0002@d86a6f]" started-at="2021-05-29T17:29:27 CLT" name="AfterClass" finished-at="2021-05-29T17:29:29 CLT" duration-ms="2003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
